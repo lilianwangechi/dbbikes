@@ -25,24 +25,10 @@ function BikeCard({ bike }) {
             {bike.name}
             <i className={bikeTypeClasses[bike.bike_class]} />
           </div>
-          <div className="meta text-wrap">
+           <div className="meta text-wrap">
             <small>{bike.catchphrase}</small>
           </div>
-        </div>
-        <div className="extra content">
-          <span>
-            <i className="icon heartbeat" />
-            {bike.health}
-          </span>
-
-          <span>
-            <i className="icon lightning" />
-            {bike.damage}
-          </span>
-          <span>
-            <i className="icon shield" />
-            {bike.armor}
-          </span>
+        
           <span>
             <div className="ui center aligned segment basic">
               <button

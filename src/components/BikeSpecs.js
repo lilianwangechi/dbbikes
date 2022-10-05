@@ -32,24 +32,7 @@ function BikeSpecs({ bike }) {
               <i className={bikeTypeClasses[bike.bike_class]} />
             </strong>
             <br />
-            <div className="ui segment">
-              <div className="ui three column centered grid">
-                <div className="row">
-                  <div className="column">
-                    <i className="icon large circular red heartbeat" />
-                    <strong>{bike.health}</strong>
-                  </div>
-                  <div className="column">
-                    <i className="icon large circular yellow lightning" />
-                    <strong>{bike.damage}</strong>
-                  </div>
-                  <div className="column">
-                    <i className="icon large circular blue shield" />
-                    <strong>{bike.armor}</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <button
               className="ui button fluid"
               onClick={() =>
