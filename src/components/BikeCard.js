@@ -1,6 +1,6 @@
 import React from "react";
 
-const biketTypeClasses = {
+const bikeTypeClasses = {
   Assault: "icon military",
   Defender: "icon shield",
   Support: "icon plus circle",
@@ -61,4 +61,4 @@ function BikeCard({ bike }) {
   );
 }
 
-export default BotCard;
+export default BikeCard;
