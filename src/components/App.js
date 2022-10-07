@@ -9,6 +9,7 @@ function App() {
   
   return (
     <div id="grad" className="App">
+      {/* //Navbar and routes */}
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home />} /> 
