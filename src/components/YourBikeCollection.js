@@ -1,18 +1,25 @@
-import React from "react";
+import React from 'react'
+import BikeCard from './BikeCard'
 
-function YourBikeCollection() {
-  //your bike Collection code here...
-
+function YourBikeCollection({ }) {
   return (
-    <div className="ui segment inverted olive bike-collection">
+    <div>
+    <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
-        <div className="row bike-collection-row">
-          {/*...and here...*/}
-          Your Bike Collection
+        <div className="row bot-army-row">
+       {/* {bike.map((bike)=>
+      <BikeCard key={bike.id} 
+      bike={bike}
+      setBikeData={setBikeData}
+          
+      />
+      )} */}
         </div>
       </div>
     </div>
-  );
+
+    </div>
+  )
 }
 
-export default YourBikeCollection;
+export default YourBikeCollection

@@ -9,7 +9,8 @@ const bikeTypeClasses = {
   Captain: "icon star",
 };
 
-function BikeCard({ bike }) {
+function BikeCard({ bike}) {
+
   return (
     <div className="ui column">
       <div
@@ -18,7 +19,7 @@ function BikeCard({ bike }) {
         onClick={() => console.log("add code to connect event listener")}
       >
         <div className="image">
-          <img alt="oh no!" src={bike.avatar_url} />
+          <img alt="my bikes!" src={bike.avatar_url} />
         </div>
         <div className="content">
           <div className="header">
@@ -33,11 +34,9 @@ function BikeCard({ bike }) {
             <div className="ui center aligned segment basic">
               <button
                 className="ui mini red button"
-                onClick={() =>
-                  console.log("add code to connect event listener")
-                }
+                // onClick={handleClick}
               >
-                li
+            Add Bike
               </button>
             </div>
           </span>
@@ -45,6 +44,6 @@ function BikeCard({ bike }) {
       </div>
     </div>
   );
-}
+  }
 
 export default BikeCard;

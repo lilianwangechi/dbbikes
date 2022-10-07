@@ -3,7 +3,7 @@ import { Route,Routes } from "react-router-dom";
 import BikePage from "./BikePage";
 import Navbar from "./Navbar";
 import Home from "./Home";
-import AddBike from "./AddBike";
+import YourBikeCollection from "./YourBikeCollection";
 
 function App() {
   
@@ -13,7 +13,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} /> 
       <Route path="/bikePage" element={<BikePage/>} />
-      <Route path="/addBike" element={<AddBike />} />
+      <Route path="/yourBikeCollection" element={<YourBikeCollection />} />
       </Routes>
     </div>
   );

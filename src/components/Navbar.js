@@ -1,9 +1,10 @@
 import React from "react";
 import {  NavLink } from "react-router-dom";
 
+
 const linkStyles = {
   display: "inline-block",
-  width: "100px",
+  width: "138px",
   padding: "20px",
   margin: "0 10px 10px",
   background: "black",
@@ -56,7 +57,7 @@ const linkStyles = {
           }} */}
          
 
-        AddBike
+        YourBikeCollection
         </NavLink>
 
       </div>

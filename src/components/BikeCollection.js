@@ -8,7 +8,10 @@ function BikeCollection({bikes}) {
       <div className="row">
         {/*...and here..*/}
         {bikes.map((bike) =>(
-          <BikeCard key={bike.id} bike={bike}/>
+          <BikeCard key={bike.id}
+           bike={bike}
+           
+           />
         ))}
       </div>
     </div>
