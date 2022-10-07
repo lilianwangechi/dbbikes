@@ -1,6 +1,8 @@
 import React from "react";
 import BikeCard from "./BikeCard";
 
+
+//function to display bikes to bike page
 function BikeCollection({bikes}) {
   // Your code here
   return (
