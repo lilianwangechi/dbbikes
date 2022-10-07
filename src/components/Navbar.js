@@ -1,7 +1,6 @@
 import React from "react";
 import {  NavLink } from "react-router-dom";
 
-
 const linkStyles = {
   display: "inline-block",
   width: "50px",
@@ -39,14 +38,14 @@ const linkStyles = {
           BikePage
         </NavLink>
         <NavLink
-          to="/yourBikeCollection"
+          to="/addBike"
           exact
           style={linkStyles}
           activeStyle={{
             background: "darkblue",
           }}
         >
-          YourBikeCollection
+          {/* YourBikeCollection
         </NavLink>
         <NavLink
           to="/yourBikeCollection"
@@ -54,8 +53,8 @@ const linkStyles = {
           style={linkStyles}
           activeStyle={{
             background: "darkblue",
-          }}
-         > 
+          }} */}
+         
 
         AddBike
         </NavLink>

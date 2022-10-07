@@ -4,8 +4,14 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <h1>Header!</h1>
+<header>
+
+    <img class="logo" src="https://www.pngmart.com/files/22/Cagiva-PNG-HD.png" alt="db Logo"/>
+
+</header>
     </div>
   );
 }
 export default Header;
+
+
