@@ -9,7 +9,7 @@ function BikePage() {
   // const [yourbikeCol,setYourBikeCol]=useState([]);
   
   useEffect(()=>{
-    fetch("http://localhost:8002/bots")
+    fetch("http://localhost:8002/bikes")
     .then((res)=> res.json())
     .then((data)=> setBikeData(data));
   },[]);

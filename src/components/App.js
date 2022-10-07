@@ -8,7 +8,7 @@ import YourBikeCollection from "./YourBikeCollection";
 function App() {
   
   return (
-    <div className="App">
+    <div id="grad" className="App">
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home />} /> 

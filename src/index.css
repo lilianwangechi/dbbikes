@@ -1,3 +1,9 @@
+#grad {
+  background-image: linear-gradient(to bottom, rgba(128, 139, 150), rgba(86, 101, 115 ), rgba(44, 62, 80));
+  font-family: 'Philosopher', sans-serif;
+  color:rgb(255,255,255);
+}
+
 body {
   margin: 0;
   padding: 0;
