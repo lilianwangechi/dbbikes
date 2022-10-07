@@ -34,7 +34,7 @@ function BikeCard({ bike}) {
             <div className="ui center aligned segment basic">
               <button
                 className="ui mini red button"
-                // onClick={handleClick}
+                //onClick={handleClick}
               >
             Add Bike
               </button>

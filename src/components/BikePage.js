@@ -7,7 +7,7 @@ function BikePage() {
   //start here with your code for step one
   const[bikeData,setBikeData]=useState([]);
   // const [yourbikeCol,setYourBikeCol]=useState([]);
-  
+  //get fetch request
   useEffect(()=>{
     fetch("http://localhost:8002/bikes")
     .then((res)=> res.json())
@@ -20,6 +20,7 @@ function BikePage() {
        <YourBikeCollection
        bikes={bikeData}
        setBikeData={setBikeData}
+       //onclick={handleClick}
        />
     </div>
   )

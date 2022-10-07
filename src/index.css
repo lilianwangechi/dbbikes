@@ -3,6 +3,13 @@
   font-family: 'Philosopher', sans-serif;
   color:rgb(255,255,255);
 }
+.wrapper {
+  background: url("https://www.pngmart.com/files/22/Lighthouse-PNG-Isolated-Image.png") no-repeat;
+  background-size: 100vw; 
+  float: left;
+  height: 100vw;
+  width: 100vw;
+} 
 
 body {
   margin: 0;
