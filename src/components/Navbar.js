@@ -11,7 +11,7 @@ const linkStyles = {
   textDecoration: "none",
   color: "white",
 };
-
+//navbar
   function NavBar() {
     return (
       <div id="text-center">
@@ -46,16 +46,7 @@ const linkStyles = {
             background: "darkblue",
           }}
         >
-          {/* YourBikeCollection
-        </NavLink>
-        <NavLink
-          to="/yourBikeCollection"
-          exact
-          style={linkStyles}
-          activeStyle={{
-            background: "darkblue",
-          }} */}
-         
+ 
 
         YourBikeCollection
         </NavLink>
