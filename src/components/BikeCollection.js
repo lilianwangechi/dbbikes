@@ -10,7 +10,6 @@ function BikeCollection({bikes}) {
         {bikes.map((bike) =>(
           <BikeCard key={bike.id} bike={bike}/>
         ))}
-        Collection of all bikes
       </div>
     </div>
   );

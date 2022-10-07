@@ -2,6 +2,7 @@ import React from "react";
 
 
 function AddBike(){
+  
   return(
     <div>
        <div>
@@ -11,7 +12,7 @@ function AddBike(){
           <input type="text" name="username" placeholder="Bikes Name"/>
         </div>
         <div>
-          <input type="password" name="password" placeholder="Password"/>
+          {/* <input type="image" name="image" placeholder="I"/> */}
         </div>
         <input type="submit" value="Submit" />
       </form>

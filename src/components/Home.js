@@ -3,9 +3,10 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <h1>Footer!</h1>
-    </div>
+    <>
+    <h1>Welcome To Dopaminaries</h1>
+    <p>Stop dreaming start riding</p>
+    </>
   );
 }
 export default Home;

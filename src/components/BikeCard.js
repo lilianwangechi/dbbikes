@@ -37,7 +37,7 @@ function BikeCard({ bike }) {
                   console.log("add code to connect event listener")
                 }
               >
-                x
+                li
               </button>
             </div>
           </span>
