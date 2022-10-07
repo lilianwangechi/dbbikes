@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from "react";
-import YourBikeCollection from "./YourBikeCollection";
+// import YourBikeCollection from "./YourBikeCollection";
 import BikeCollection from "./BikeCollection";
 
 function BikePage() {
@@ -14,7 +14,7 @@ function BikePage() {
 
   return (
     <div>
-      <YourBikeCollection />
+      {/* <YourBikeCollection /> */}
       <BikeCollection bikes={bikeData}/>  
     </div>
   )
