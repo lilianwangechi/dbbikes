@@ -9,6 +9,8 @@ const bikeTypeClasses = {
   Captain: "icon star",
 };
 
+
+//function to display bikes
 function BikeCard({ bike}) {
 
   return (
@@ -33,7 +35,7 @@ function BikeCard({ bike}) {
           <span>
             <div className="ui center aligned segment basic">
               <button
-                className="ui mini red button"
+                className="ui mini blue button"
                 //onClick={handleClick}
               >
             Add Bike
