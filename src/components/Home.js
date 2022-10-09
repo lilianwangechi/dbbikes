@@ -2,17 +2,23 @@ import React from "react";
 
 function Home() {
   return (
-    <>
+    
+   <div className="home"
+   style={{backgroundImage:"url('/images/hero-1.png')"}}
+   >
     <div>
-    <h1 className="text-center">Welcome To Dopaminaries</h1>
-    <p className="text-center">Stop dreaming start riding</p>
-    <main>
-		<h1 id="headline">A Cyclist Paradise.</h1>
-		<h2 id="about">Get information as you start your cycling journey.</h2>   
-	</main>
+    <h1>Welcome Dopaminaries</h1>
+    <h3>Biking Adventure</h3>
+    <p>vehicle supported all the way and the crew will look after the bikes, the camping and the cooking. Bikes are provided but participants can also bring their own. Once arrived in the Mara a number of nights can be spend at any of the many fabulous lodges all around the Park.</p>
+    </div>
+   </div>
+   
 
-  </div>
-    </>
+		   
+	
+
+  
+  
   );
 }
 export default Home;

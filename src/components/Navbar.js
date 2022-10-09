@@ -1,6 +1,5 @@
 import React from "react";
-import {  NavLink } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 const linkStyles = {
   display: "inline-block",
@@ -12,10 +11,14 @@ const linkStyles = {
   color: "white",
 };
 //navbar
-  function NavBar() {
-    return (
-      <div id="text-center">
-      <NavLink
+function NavBar() {
+  return (
+    <div className="nav">
+      <div className="nav-image">
+        <img src="/images/logo.svg" alt="logo" />
+      </div>
+      <div className="links">
+        <NavLink
           to="/"
           /* set exact so it knows to only set activeStyle when route is deeply equal to link */
           exact
@@ -46,13 +49,10 @@ const linkStyles = {
             background: "darkblue",
           }}
         >
- 
-
-        YourBikeCollection
+          YourBikeCollection
         </NavLink>
-
       </div>
-    
-    );
-  }
-  export default NavBar;
+    </div>
+  );
+}
+export default NavBar;
