@@ -1,15 +1,5 @@
 import React from "react";
 
-// const homeStyles = {
-//   height: 60px;
-//   width: 100%;
-//   display: flex;
-//   align-items: center;
-//   position: relative;
-//   padding: 0.5rem 0rem;
-//   background-color: #fff;
-//   color: black;
-// }
 function Home() {
   return (
     <>
